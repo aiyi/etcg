@@ -8,6 +8,7 @@
 /node_modules/loopback-datasource-juggler
 /node_modules/loopback-explorer/node_modules
 /node_modules/serve-favicon
+/node_modules/validator
 /.idea
 /.c9revisions
 /.settings

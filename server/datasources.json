@@ -6,9 +6,8 @@
   "mongo": {
     "host": "localhost",
     "port": 27017,
-    "database": "etc",
+    "database": "etcg",
     "name": "mongo",
     "connector": "mongodb"
   }
 }
-

@@ -1,0 +1,75 @@
+{
+  "name": "rsu",
+  "plural": "rsu",
+  "base": "PersistedModel",
+  "strict": true,
+  "idInjection": false,
+  "properties": {
+    "IP": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "description": "IP地址(用作设备访问ID)"
+    },
+    "Station": {
+      "type": "number",
+      "description": "站点号(0~65535)"
+    },
+    "Roadway": {
+      "type": "number",
+      "description": "车道号(0~255)"
+    },
+    "BSTInterval": {
+      "type": "number",
+      "description": "BST间隔时间(6~10,单位ms)"
+    },
+    "PLLChannelID": {
+      "type": "number",
+      "description": "通信信道号(0~1)"
+    },
+    "TxPower": {
+      "type": "number",
+      "description": "发射功率级数(0~31)"
+    },
+    "RxSensitivity": {
+      "type": "number",
+      "description": "接受灵敏度(0~31)"
+    },
+    "BeaconChange": {
+      "type": "number",
+      "description": "Beacon是否改变(0:固定,1:改变)"
+    },
+    "Status": {
+      "type": "number",
+      "description": "当前工作状态(0:正常,2:热备)"
+    },
+    "BeaconID": {
+      "type": "number",
+      "description": "BeaconID(0-4294967295)"
+    },
+    "ManuID": {
+      "type": "number",
+      "description": "厂商代码(0~255)"
+    },
+    "RSUID": {
+      "type": "number",
+      "description": "RSU编号(0~16777215)"
+    },
+    "Version": {
+      "type": "number",
+      "description": "软件版本号(0~65535)"
+    },
+    "AlgID": {
+      "type": "number",
+      "description": "算法标识(0~255)"
+    },
+    "StartDateTime": {
+      "type": "date",
+      "description": "开机时间(yyyy-mm-ddThh-mm-ss)"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
