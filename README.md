@@ -1,2 +1,2 @@
-etc
+ETC Gateway API Server
 ===
