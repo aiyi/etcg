@@ -97,8 +97,8 @@ module.exports = function(Rsu) {
     description: '设置站点号和车道号',
     accepts: [
       {arg: 'IP', type: 'string', required: true, description: 'IP地址'},
-      {arg: 'Station', type: 'number', required: true, description: '站点号'},
-      {arg: 'Roadway', type: 'number', required: true, description: '车道号'}
+      {arg: 'Station', type: 'number', required: true, description: '站点号(0~65535)'},
+      {arg: 'Roadway', type: 'number', required: true, description: '车道号(0~255)'}
     ],
     returns: {arg: 'success', type: 'boolean'},
     http: {verb: 'post'}
